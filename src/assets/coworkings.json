@@ -1,0 +1,297 @@
+[
+    {
+        "id": 1,
+        "nombre": "Coworking Madrid Central",
+        "descripcion": "Un espacio moderno en el corazón de Madrid, ideal para freelancers y startups.",
+        "precio": "150 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-1.jpg",
+        "localizacion": {
+            "direccion": "Calle Gran Vía, 45, 28013 Madrid, España",
+            "ciudad": "Madrid",
+            "codigo_postal": "28013"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y té",
+            "Salas de reuniones",
+            "Impresoras"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 20:00",
+            "sabado": "10:00 - 14:00",
+            "domingo": "Cerrado"
+        },
+        "destacado": true,
+        "reservado": false
+    },
+    {
+        "id": 2,
+        "nombre": "Barcelona Innovation Hub",
+        "descripcion": "Espacio vibrante y creativo en el centro de Barcelona, perfecto para la colaboración y la innovación.",
+        "precio": "200 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-2.jpg",
+        "localizacion": {
+            "direccion": "Avinguda Diagonal, 211, 08018 Barcelona, España",
+            "ciudad": "Barcelona",
+            "codigo_postal": "08018"
+        },
+        "servicios": [
+            "WiFi de alta velocidad",
+            "Café gratuito",
+            "Salas de conferencias",
+            "Espacio para eventos"
+        ],
+        "horarios": {
+            "lunes_viernes": "09:00 - 19:00",
+            "sabado": "09:00 - 14:00",
+            "domingo": "Cerrado"
+        },
+        "destacado": true,
+        "reservado": false
+    },
+    {
+        "id": 3,
+        "nombre": "Valencia Work Space",
+        "descripcion": "Un lugar acogedor y profesional en Valencia, ideal para trabajar en un ambiente tranquilo.",
+        "precio": "120 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-3.jpg",
+        "localizacion": {
+            "direccion": "Carrer de Colón, 50, 46004 Valencia, España",
+            "ciudad": "Valencia",
+            "codigo_postal": "46004"
+        },
+        "servicios": [
+            "WiFi",
+            "Zona de descanso",
+            "Salas de reuniones",
+            "Servicio de paquetería"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 18:00",
+            "sabado_domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": true
+    },
+    {
+        "id": 4,
+        "nombre": "Sevilla Co-Lab",
+        "descripcion": "Espacio colaborativo en Sevilla con un ambiente relajado y profesional.",
+        "precio": "130 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-4.jpg",
+        "localizacion": {
+            "direccion": "Avenida de la Constitución, 20, 41004 Sevilla, España",
+            "ciudad": "Sevilla",
+            "codigo_postal": "41004"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y aperitivos",
+            "Salas de reuniones",
+            "Terraza"
+        ],
+        "horarios": {
+            "lunes_viernes": "09:00 - 18:00",
+            "sabado_domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": true
+    },
+    {
+        "id": 5,
+        "nombre": "Bilbao Cowork",
+        "descripcion": "Un espacio innovador en Bilbao, ideal para emprendedores y profesionales creativos.",
+        "precio": "140 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-5.jpg",
+        "localizacion": {
+            "direccion": "Plaza Moyúa, 1, 48009 Bilbao, España",
+            "ciudad": "Bilbao",
+            "codigo_postal": "48009"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y té",
+            "Salas de reuniones",
+            "Eventos de networking"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 19:00",
+            "sabado": "09:00 - 13:00",
+            "domingo": "Cerrado",
+            "reservado": false
+        },
+        "destacado": true
+    },
+    {
+        "id": 6,
+        "nombre": "Malaga Work Hub",
+        "descripcion": "Espacio profesional y moderno en Málaga, ideal para equipos pequeños y freelancers.",
+        "precio": "160 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-6.jpg",
+        "localizacion": {
+            "direccion": "Calle Larios, 10, 29015 Málaga, España",
+            "ciudad": "Málaga",
+            "codigo_postal": "29015"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y té",
+            "Salas de reuniones",
+            "Zona de descanso"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 18:00",
+            "sabado": "09:00 - 14:00",
+            "domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": false
+    },
+    {
+        "id": 7,
+        "nombre": "Coworking Alicante Centro",
+        "descripcion": "Espacio céntrico en Alicante, perfecto para profesionales en movimiento.",
+        "precio": "100 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-7.jpg",
+        "localizacion": {
+            "direccion": "Calle San Fernando, 12, 03002 Alicante, España",
+            "ciudad": "Alicante",
+            "codigo_postal": "03002"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y aperitivos",
+            "Salas de reuniones",
+            "Impresoras"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 17:00",
+            "sabado_domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": false
+    },
+    {
+        "id": 8,
+        "nombre": "Zaragoza Cowork Hub",
+        "descripcion": "Espacio dinámico en Zaragoza, ideal para networking y colaboración.",
+        "precio": "150 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-8.jpg",
+        "localizacion": {
+            "direccion": "Paseo de la Independencia, 24, 50004 Zaragoza, España",
+            "ciudad": "Zaragoza",
+            "codigo_postal": "50004"
+        },
+        "servicios": [
+            "WiFi",
+            "Café gratuito",
+            "Salas de reuniones",
+            "Eventos de networking"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 18:00",
+            "sabado": "10:00 - 14:00",
+            "domingo": "Cerrado"
+        },
+        "destacado": true,
+        "reservado": false
+    },
+    {
+        "id": 9,
+        "nombre": "Coworking Palma de Mallorca",
+        "descripcion": "Espacio flexible en Palma, ideal para freelancers y pequeñas empresas.",
+        "precio": "170 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-9.jpg",
+        "localizacion": {
+            "direccion": "Carrer de Sant Miquel, 30, 07002 Palma, España",
+            "ciudad": "Palma",
+            "codigo_postal": "07002"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y té",
+            "Salas de reuniones",
+            "Terraza"
+        ],
+        "horarios": {
+            "lunes_viernes": "09:00 - 19:00",
+            "sabado": "10:00 - 14:00",
+            "domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": true
+    },
+    {
+        "id": 10,
+        "nombre": "Granada Business Center",
+        "descripcion": "Centro de negocios en Granada con todas las comodidades para profesionales.",
+        "precio": "130 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-10.jpg",
+        "localizacion": {
+            "direccion": "Calle Gran Vía de Colón, 21, 18001 Granada, España",
+            "ciudad": "Granada",
+            "codigo_postal": "18001"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y té",
+            "Salas de reuniones",
+            "Espacio para eventos"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 18:00",
+            "sabado_domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": false
+    },
+    {
+        "id": 11,
+        "nombre": "Cordoba Work Space",
+        "descripcion": "Ambiente profesional y tranquilo en Córdoba, ideal para trabajar sin distracciones.",
+        "precio": "120 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-11.jpg",
+        "localizacion": {
+            "direccion": "Calle Claudio Marcelo, 5, 14002 Córdoba, España",
+            "ciudad": "Córdoba",
+            "codigo_postal": "14002"
+        },
+        "servicios": [
+            "WiFi",
+            "Zona de descanso",
+            "Salas de reuniones",
+            "Impresoras"
+        ],
+        "horarios": {
+            "lunes_viernes": "09:00 - 17:00",
+            "sabado_domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": false
+    },
+    {
+        "id": 12,
+        "nombre": "Vigo Coworking Space",
+        "descripcion": "Espacio vibrante en Vigo, perfecto para profesionales creativos.",
+        "precio": "110 EUR/mes",
+        "imagen": "https://oscarsoler.com/coworking-img/image-12.jpg",
+        "localizacion": {
+            "direccion": "Rúa do Príncipe, 54, 36202 Vigo, España",
+            "ciudad": "Vigo",
+            "codigo_postal": "36202"
+        },
+        "servicios": [
+            "WiFi",
+            "Café y té",
+            "Salas de reuniones",
+            "Zona de descanso"
+        ],
+        "horarios": {
+            "lunes_viernes": "08:00 - 19:00",
+            "sabado": "10:00 - 13:00",
+            "domingo": "Cerrado"
+        },
+        "destacado": false,
+        "reservado": false
+    }
+]
