@@ -17,8 +17,12 @@
   left: 0;
   background-color: #FFC805;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: width 0.5s ease;
   padding-top: 60px;
+}
+
+.sidenav.open-menu {
+  width: 250px;
 }
 
 .sidenav a {
@@ -72,11 +76,24 @@
   font-weight: var(--font-weight-bold);
   position: absolute;
   right: 2rem;
+  color: #000;
+  display: none;
+  /* Ocultar por defecto */
+}
+
+.logout-link {
+  display: flex;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.logout-link:hover {
+  color: #818181;
 }
 
 @media screen and (min-width: 768px) {
   #user-email {
     display: block;
   }
-
 }

@@ -1,36 +1,36 @@
 <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-light fixed-top">
-      <div class="container-fluid">
-        <!-- Botón para abrir/cerrar el menú lateral -->
-        <button class="navbar-toggler" type="button" (click)="toggleMenu()">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <!-- Logo -->
-        <a class="navbar-brand" routerLink="/home">
-          <img src="assets/images/logonav.png" alt="Workable" class="logo-img">
+  <!-- Navbar -->
+  <nav class="navbar navbar-light fixed-top">
+    <div class="container-fluid">
+      <!-- Botón para abrir/cerrar el menú lateral -->
+      <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Logo -->
+      <a class="navbar-brand" routerLink="/home">
+        <img src="assets/images/logonav.png" alt="Workable" class="logo-img">
+      </a>
+
+      <!-- Sección de usuario -->
+      <div class="d-flex align-items-center logout">
+        <span *ngIf="userEmail" id="user-email" class="me-3">{{ userEmail }}</span>
+        <a *ngIf="userEmail" href="#" class="logout-link" (click)="logout()" routerLink="/login"
+          routerLinkActive="active">
+          <i class="bi bi-power logout-icon"></i>
         </a>
-  
-        <!-- Sección de usuario -->
-        <div class="d-flex align-items-center logout">
-          <span id="user-email" class="me-3">{{ userEmail }}</span>
-          <a href="#" class="logout-link" (click)="logout()" routerLink="/login" routerLink="active">
-            <i class="bi bi-power logout-icon"></i>
-          </a>
-        </div>
       </div>
-    </nav>
-  
-    <!-- Menú lateral -->
-    <div id="sideMenu" class="sidenav" [style.width]="isMenuOpen ? '250px' : '0'">
-      <!-- Botón para cerrar el menú -->
-      <a href="javascript:void(0)" class="closebtn" (click)="toggleMenu()">&times;</a>
-      <a routerLink="/"><i class="bi bi-house"></i> Inicio</a>
-      <a routerLink="#"><i class="bi bi-search"></i> Buscar</a>
-      <a routerLink="#"><i class="bi bi-person"></i> Perfil</a>
-      <a routerLink="#"><i class="bi bi-calendar"></i> Mis reservas</a>
-      <a routerLink="#"><i class="bi bi-bell"></i> Notificaciones</a>
-      <a routerLink="#"><i class="bi bi-question-circle"></i> Ayuda</a>
     </div>
+  </nav>
+
+  <!-- Menú lateral -->
+  <div id="sideMenu" class="sidenav" [ngClass]="{ 'open-menu': isMenuOpen }">
+    <a href="javascript:void(0)" class="closebtn" (click)="toggleMenu()">&times;</a>
+    <a routerLink="/" routerLinkActive="active"><i class="bi bi-house"></i> Inicio</a>
+    <a routerLink="#" routerLinkActive="active"><i class="bi bi-search"></i> Buscar</a>
+    <a routerLink="#" routerLinkActive="active"><i class="bi bi-person"></i> Perfil</a>
+    <a routerLink="#" routerLinkActive="active"><i class="bi bi-calendar"></i> Mis reservas</a>
+    <a routerLink="#" routerLinkActive="active"><i class="bi bi-bell"></i> Notificaciones</a>
+    <a routerLink="#" routerLinkActive="active"><i class="bi bi-question-circle"></i> Ayuda</a>
+  </div>
 </header>
