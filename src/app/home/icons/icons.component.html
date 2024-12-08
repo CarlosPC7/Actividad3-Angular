@@ -1,26 +1,8 @@
 <section class="row categories text-center my-5">
-  <div class="col">
-    <a href="#">
-      <div class="category__icon mb-1"><i class="bi bi-eye"></i></div>
-      <span class="category__text">Con vistas</span>
-    </a>
-  </div>
-  <div class="col">
-    <a href="#">
-      <div class="category__icon mb-1"><i class="bi bi-building"></i></div>
-      <span class="category__text">Céntrico</span>
-    </a>
-  </div>
-  <div class="col">
-    <a href="#">
-      <div class="category__icon mb-1"><i class="bi bi-arrows-fullscreen"></i></div>
-      <span class="category__text">Espacioso</span>
-    </a>
-  </div>
-  <div class="col">
-    <a href="#">
-      <div class="category__icon mb-1"><i class="bi bi-clock"></i></div>
-      <span class="category__text">24 horas</span>
+  <div *ngFor="let category of categories" class="col">
+    <a href="#" (click)="onCategoryClick(category)">
+      <div class="category__icon mb-1" [ngClass]="category.iconClass"></div>
+      <span class="category__text">{{ category.name }}</span>
     </a>
   </div>
 </section>
