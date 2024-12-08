@@ -5,10 +5,15 @@
   <div class="hero__search">
     <div class="input-group mb-3">
       <input type="search" class="form-control" placeholder="Buscar coworking" aria-label="Buscar coworking"
-        aria-describedby="basic-addon2">
+        [(ngModel)]="searchQuery" (input)="onSearchChange()" [ngClass]="{'input-active': searchQuery.length > 0}"
+        [ngStyle]="{'border-color': searchQuery.length > 0 ? 'green' : 'grey'}">
       <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button"><i class="bi bi-search"></i></button>
+        <button class="btn btn-outline-secondary" type="button" (click)="performSearch()">
+          <i class="bi bi-search"></i>
+        </button>
       </div>
     </div>
+    <p *ngIf="searchQuery.length === 0" class="no-results-message">Por favor ingrese una búsqueda.</p>
   </div>
 </section>
+

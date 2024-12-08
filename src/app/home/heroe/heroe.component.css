@@ -53,3 +53,13 @@
   background-color: var(--accent-color);
   border-color: none;
 }
+
+.input-active {
+  border-color: #007bff !important;
+}
+
+.no-results-message {
+  color: #ff0000;
+  font-size: 1rem;
+  text-align: center;
+}

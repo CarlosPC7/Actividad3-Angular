@@ -12,8 +12,6 @@ footer p {
   font-size: var(--font-size-small);
 }
 
-/* Clase para destacar el footer */
 .highlight-footer {
   background-color: #ffcc00;
-  /* Fondo amarillo si se aplica la clase */
 }
