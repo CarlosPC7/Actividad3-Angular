@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-heroe',
@@ -8,18 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './heroe.component.css'
 })
 export class HeroeComponent {
-  searchQuery: string = '';
-  searchResults: any[] = [];
+  @Output() searchQuery = new EventEmitter<string>();
+  searchText: string = '';
 
-  onSearchChange(): void {
-    console.log('Búsqueda en proceso...', this.searchQuery);
-  }
-
-  performSearch(): void {
-    if (this.searchQuery) {
-      console.log('Realizando búsqueda para:', this.searchQuery);
-    } else {
-      console.log('Por favor ingrese una búsqueda');
-    }
+  onSearch() {
+    this.searchQuery.emit(this.searchText);
   }
 }
