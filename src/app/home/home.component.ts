@@ -11,5 +11,9 @@ import { CoworkingsComponent } from './coworkings/coworkings.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  searchQuery: string = '';
 
+  onSearch(query: string) {
+    this.searchQuery = query;
+  }
 }

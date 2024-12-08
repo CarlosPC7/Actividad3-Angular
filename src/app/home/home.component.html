@@ -1,3 +1,3 @@
-<app-heroe></app-heroe>
+<app-heroe (searchQuery)="onSearch($event)"></app-heroe>
 <app-icons></app-icons>
-<app-coworkings></app-coworkings>
+<app-coworkings [searchQuery]="searchQuery"></app-coworkings>

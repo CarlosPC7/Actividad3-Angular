@@ -2,10 +2,10 @@
   <div class="section__title">
     <h2>Coworkings destacados</h2>
   </div>
-  <div *ngFor="let coworking of coworkings" class="col-6 col-xl-3 mb-3">
+  <div *ngFor="let coworking of filteredCoworkings" class="col-6 col-xl-3 mb-3">
     <a href="ficha.html?id={{coworking.id}}">
       <div class="card">
-        <img src="{{coworking.imagen}}" alt="{{coworking.nombre}}">
+        <img [src]="coworking.imagen" alt="{{coworking.nombre}}">
         <div class="card-body">
           <h5 class="card-title">{{coworking.nombre}}</h5>
           <p class="card-text">Desde {{coworking.precio}}</p>
@@ -14,3 +14,4 @@
     </a>
   </div>
 </section>
+
