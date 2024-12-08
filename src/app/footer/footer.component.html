@@ -1,5 +1,7 @@
-<footer class="footer">
+<footer class="footer" [ngClass]="{'highlight-footer': isHighlighted}">
   <div class="container-fluid">
-    <p>&copy; 2024 Workable. Todos los derechos reservados.</p>
+    <p *ngIf="isLoggedIn">&copy; 2024 Workable. Todos los derechos reservados.</p>
+    <p *ngIf="!isLoggedIn">Por favor, inicia sesión para acceder a más funcionalidades.</p>
   </div>
 </footer>
+

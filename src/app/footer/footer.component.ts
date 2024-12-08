@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  isLoggedIn: boolean = false;
+  isHighlighted: boolean = true;
 
+  ngOnInit(): void {
+    const email = sessionStorage.getItem('email');
+    this.isLoggedIn = email ? true : false;
+  }
 }
