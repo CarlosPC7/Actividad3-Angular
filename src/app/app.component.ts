@@ -4,7 +4,7 @@ import { CoworkingsComponent } from './home/coworkings/coworkings.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HeroeComponent } from './home/heroe/heroe.component';
 import { IconsComponent } from './home/icons/icons.component';
-import { FormularioComponent } from './formulario/formulario.component';
+import { FormularioComponent } from './home/formulario/formulario.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
