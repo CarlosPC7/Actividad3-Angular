@@ -1,9 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-icons',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './icons.component.html',
   styleUrl: './icons.component.css'
 })

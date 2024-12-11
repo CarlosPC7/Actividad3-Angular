@@ -14,9 +14,7 @@
 
       <!-- Sección de usuario -->
       <div class="d-flex align-items-center logout">
-        <span *ngIf="userEmail" id="user-email" class="me-3">{{ userEmail }}</span>
-        <a *ngIf="userEmail" href="#" class="logout-link" (click)="logout()" routerLink="/login"
-          routerLinkActive="active">
+        <a href="#" class="logout-link" (click)="logout()">
           <i class="bi bi-power logout-icon"></i>
         </a>
       </div>

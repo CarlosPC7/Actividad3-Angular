@@ -1,18 +1,20 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-  isLoggedIn: boolean = false;
+  @Input() isLoggedIn: boolean = false;
   isHighlighted: boolean = true;
 
   ngOnInit(): void {
-    const email = sessionStorage.getItem('email');
-    this.isLoggedIn = email ? true : false;
+    setTimeout(() => {
+      this.isHighlighted = false;
+    }, 5000);
   }
 }
