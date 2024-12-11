@@ -1,65 +1,19 @@
-/* Hero */
+  .hero {
+    background-color: var(--primary-color);
+    padding: 6rem 1rem 2rem;
+    margin: 0 auto;
+    align-content: center;
+  }
 
-.hero {
-  background-color: var(--primary-color);
-  padding: 6rem 1rem 2rem;
-  margin: 0 auto;
-  align-content: center;
-}
+  .hero__title h1 {
+    font-size: var(--font-size-title-lg);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    max-width: 35rem;
+    margin: 0 auto;
+  }
 
-.hero__title h1 {
-  font-size: var(--font-size-title-lg);
-  font-weight: var(--font-weight-bold);
-  text-align: center;
-  max-width: 35rem;
-  margin: 0 auto;
-}
-
-.hero__search {
-  max-width: 35rem;
-  margin: 0 auto;
-}
-
-/* Bootstrap classes */
-
-.form-control {
-  border-radius: 25px;
-  padding: 10px 20px;
-  font-family: var(--font-family);
-}
-
-.input-group-append button {
-  border-radius: 0 40px 40px 0;
-  padding: 12px 20px;
-  right: 0;
-  background-color: white;
-  border: var(--bs-border-width) solid var(--bs-border-color);
-  border-left: none;
-}
-
-.btn {
-  border-radius: 25px;
-  padding: 10px 20px;
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-bold);
-  background-color: var(--primary-color);
-  color: var(--text-color);
-  border: none;
-  padding: .75rem 2.5rem;
-}
-
-.btn:hover {
-  color: var(--text-color);
-  background-color: var(--accent-color);
-  border-color: none;
-}
-
-.input-active {
-  border-color: #007bff !important;
-}
-
-.no-results-message {
-  color: #ff0000;
-  font-size: 1rem;
-  text-align: center;
-}
+  .hero__search {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
